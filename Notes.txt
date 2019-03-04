@@ -1,0 +1,2 @@
+-As notes are relative to scale:
+	[x][x+2][x+4](eg. 1-3-5) is both a major and a minor chord

@@ -1,0 +1,45 @@
+0.0.0.1 - 23/08/2016
++noteListToStream() Turns lists of notes to a stream
+
+0.0.0.2 - 23/08/2016
++noteLists can now include chords
++Scale modes
+
+0.0.0.3 - 15/10/2016
+~fixed some intrinsic documentation
+-Can no longer add integers to the note lists, must be lists
+
+0.0.0.4 - 15/10/2016
++noteLists can now include rests
++Strings can now be included in chords, they are ignored by noteListToStream() - This will be used to indecate hidden notes to the melody
+~Compressed a common section of code within NoteListToStream() into the local function addToNoteList()
+
+0.0.1.4 - 19/10/2016
++skewedChoice snippit
++condensedChoice snippit
++composeChords() Uses chord progressions to generate a chord stream
++Randomised song specs
+
+0.0.2.4 - 26/10/2016
++composeMelody()
+~Repeats composed section 3 times for better analysis
+
+0.0.2.5 - 29/10/2016
++alignToList snippit
++alignMelody()
+
+0.0.2.6 - 29/10/2016
++changeMelody_keepStructure()
++change_doubleDurations()
+
+0.0.2.7 - 30/10/2016
++change_invert()
++debug_unison()
+
+0.0.3.7 - 30/10/2016
+~noteListToStream() now appends notes to a current stream rather than creating a new one to allow for multiple of streams being appended
+
+0.0.3.8 - 30/10/2016
++Different key and time signature for different sections !!!Currently has error where Key/Time sig is not written on musescore2 but seems to be in the XML
++Octave lists can now have multiple octaves, they are randomly selected
+~noteListToStream() no longer appends the key or time signature when it doesn't change between sections
